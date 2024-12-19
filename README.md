@@ -1,4 +1,3 @@
-
 # Tutorial Git e GitHub Completo 🚀
 
 Conteúdo do curso da **plataforma B7Web**, destrinchado com carinho por mim! 🎓
@@ -61,6 +60,24 @@ git init
 
 Isso criará um repositório Git para começar a versionar seu projeto.
 
+### 3. Verificar o status do repositório:
+O comando `git status` permite verificar se o repositório já foi inicializado e listar mudanças ou arquivos não rastreados.
+
+- **Caso o repositório tenha sido inicializado:**
+  ```bash
+  $ git status
+  On branch main
+  No commits yet
+  
+  nothing to commit (create/copy files and use "git add" to track)
+  ```
+
+- **Caso o repositório não tenha sido inicializado:**
+  ```bash
+  $ git status
+  fatal: not a git repository (or any of the parent directories): .git
+  ```
+
 ---
 
 ## 📂 Adicionando e Comitando Arquivos
@@ -116,10 +133,10 @@ git push -u origin main
 
 ---
 
-## 🔄 Fluxo de Trabalho com Git
+## 🔄 Fluxo de Trabalho com Git - Resumo
 
 1. **Verificar status do repositório**:  
-   Use `git status` para verificar mudanças ou arquivos não rastreados.
+   Use `git status` para verificar mudanças ou arquivos.
 
 2. **Adicionar mudanças**:  
    Use `git add .` ou `git add nome-do-arquivo`.
@@ -134,3 +151,11 @@ git push -u origin main
 
 Pronto! Agora você sabe como criar, configurar e trabalhar com Git e GitHub. 🚀  
 Continue explorando comandos avançados para otimizar seu fluxo de trabalho!
+
+---
+
+## 🤔 Dicas, Situações e Comandos Avançados
+
+Olha só, com tudo o que você já viu até aqui, você já pode versionar qualquer projeto com Git como um verdadeiro profissional! Agora vamos explorar aquelas situações que, cedo ou tarde, todo mundo encontra. Sabe quando as coisas não saem como planejado? Aqui vou te mostrar como prevenir problemas e, quando isso não for possível, como consertar as coisas rapidinho e seguir em frente.
+
+---
